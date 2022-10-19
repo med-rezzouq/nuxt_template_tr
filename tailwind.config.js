@@ -24,10 +24,22 @@ module.exports = {
       gray: colors.gray,
       indigo: {
         dark: "#08365C",
-        light: "#062239",
+        footer: "#134E84",
+        initial: "#093F6D",
+        original: "#122E46",
+        gcards: "#043156FA",
+        light: "#F5F5F5",
+        project: "#19466B",
+        bg: "#F5F5F5",
+        hard: "#1A4A74",
+        soft: "#2E6DA1",
+        gray: "#4E4E4E",
       },
     },
     extend: {
+      boxShadow: {
+        card: "0px 2px 24px #11111126",
+      },
       borderWidth: {
         1: "1px",
       },

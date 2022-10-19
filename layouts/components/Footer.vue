@@ -2,16 +2,18 @@
   <footer
     class="bg-gradient-to-r from-indigo-initial to-indigo-original text-white"
   >
-    <div class="footer-container bg-[url('/images/shapes.svg')] bg-no-repeat">
+    <div
+      class="footer-container lg:bg-[url('/images/shapes.svg')] bg-no-repeat"
+    >
       <div
         class="max-w-5xl lg:max-w-7xl w-11/12 grid grid-cols-1 justify-center items-center mx-auto lg:gap-x-10 gap-y-6 lg:gap-y-12 pt-16 pb-10"
       >
         <div
-          class="flex flex-col space-y-6 sm:space-y-0 sm:flex-row sm:space-x-6 lg:space-x-8 self-stretch"
+          class="grid lg:grid-cols-3 grid-cols-1 space-y-6 sm:space-y-0 sm:flex-row lg:space-x-8 self-stretch"
         >
-          <div class="flex-1 lg:ml-16">
-            <img src="/images/logo.png" alt="" class="w-40" />
-            <ul class="mt-6 text-xs space-y-4 font-light">
+          <div class="flex-1 lg:ml-16 lg:order-1 order-3">
+            <img src="/images/logo.png" alt="" class="w-40 hidden lg:flex" />
+            <ul class="mt-6 text-xs space-y-4 font-light w-80 mx-auto">
               <li>
                 <a href="tel:00905050341581">00905050341581</a>
               </li>
@@ -26,7 +28,9 @@
               </li>
             </ul>
           </div>
-          <div class="flex-1 flex justify-between">
+          <div
+            class="flex-1 flex justify-around lg:justify-between lg:order-2 order-1"
+          >
             <div class="flex flex-col">
               <h3 class="text-md font-bold">Our Projects</h3>
               <ul class="mt-6 text-xs space-y-4 font-light">
@@ -65,7 +69,7 @@
               </ul>
             </div>
           </div>
-          <div class="flex-1 text-center">
+          <div class="flex-1 text-center order-3 lg:order-3">
             <h3 class="text-md font-bold">Follow Us On Social Media</h3>
             <div class="mt-3 flex justify-center space-x-6">
               <a href="">

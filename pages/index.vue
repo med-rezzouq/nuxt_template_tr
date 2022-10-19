@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center bg-[url('/images/bg.svg')] bg-indigo-bg bg-no-repeat"
+    class="flex flex-col items-center bg-[url('/images/bg.svg')] bg-intro lg:bg-inh xl:ina 2xl:inb bg-indigo-bg bg-no-repeat"
   >
     <main class="w-full">
       <Testimonials />

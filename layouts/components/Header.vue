@@ -4,8 +4,11 @@
       <div
         class="flex flex-col justify-center space-y-2 mx-auto w-11/12 lg:max-w-7xl"
       >
-        <div class="my-2 px-2 lg:hidden flex flex-row">
-          <div class="lg:hidden self-end flex flex-1 w-full">
+        <div class="my-4 px-2 lg:hidden flex flex-row justify-between">
+          <div class="">
+            <img src="/images/logo.png" alt="" class="w-40" />
+          </div>
+          <div class="lg:hidden flex w-full justify-end">
             <button
               id="nav-toggle"
               class="text-first"
@@ -19,7 +22,7 @@
                   'open align-end h-10 w-10',
                   { hidden: toggle === true },
                 ]"
-                src="/images/icons/open.svg"
+                src="/images/open.svg"
                 alt="Burger ouvert"
                 @click="toggle = !toggle"
               />
@@ -28,7 +31,7 @@
                   'open align-end h-10 w-10',
                   { hidden: toggle === false },
                 ]"
-                src="/images/icons/close.svg"
+                src="/images/close.svg"
                 alt="Burger fermé"
                 @click="toggle = !toggle"
               />
@@ -36,7 +39,7 @@
           </div>
         </div>
 
-        <nav class="flex justify-between items-center">
+        <nav class="lg:flex justify-between items-center hidden">
           <div class="">
             <img src="/images/logo.png" alt="" class="w-40" />
           </div>
@@ -90,65 +93,23 @@
 
         <div
           :class="[
-            ' absolute top-24 text-teal-500 block  opacity-100 bg-white shadow-lg right-[5] p-10 z-20 w-11/12 rounded-2xl transition-all delay-100 duration-500 ease-in-out',
+            ' absolute top-20 text-teal-500 block  opacity-100 bg-white shadow-lg right-[5] p-10 z-20 w-11/12 rounded-2xl transition-all delay-100 duration-500 ease-in-out',
             { 'opacity-0 hidden': toggle === false },
           ]"
           data-title="mobile-menu"
         >
           <nav
-            class="menu-mobile flex flex-col sm:flex-row sm:space-x-6 md:space-x-12 space-y-4 sm:space-y-0"
+            class="menu-mobile flex flex-col sm:flex-row sm:space-x-6 md:space-x-10 space-y-4 sm:space-y-0"
           >
-            <ul>
+            <ul class="text-xl text-indigo-dark font-medium">
               <li>
-                <a href="">Login</a>
-              </li>
-
-              <li>
-                <a href="">Register</a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="" class="font-bold">0 items</a>
-              </li>
-
-              <li>
-                <a href="">Chceckout </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="">About</a>
+                <a href="#">Home</a>
               </li>
               <li>
-                <a href="">Partner Program </a>
+                <a href="#">Projects </a>
               </li>
               <li>
-                <a href="">Franchise </a>
-              </li>
-              <li>
-                <a href="">How to Order </a>
-              </li>
-              <li>
-                <a href="">Contact </a>
-              </li>
-            </ul>
-
-            <ul class="text-xl text-teal-500 font-light">
-              <li>
-                <a href="">CUPS </a>
-              </li>
-              <li>
-                <a href="">SPOONS </a>
-              </li>
-              <li>
-                <a href="">LIDS </a>
-              </li>
-              <li>
-                <a href="">ACCESSORIES </a>
-              </li>
-              <li>
-                <a href="">MARKETING </a>
+                <a href="#">Contact us </a>
               </li>
             </ul>
           </nav>

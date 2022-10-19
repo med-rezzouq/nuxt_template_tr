@@ -1,5 +1,5 @@
 <template>
-  <div class="relative font-sans bg-blue-light bg-[url('/images/bg.svg')]">
+  <div class="relative font-sans">
     <app-header />
     <Nuxt />
     <app-footer />

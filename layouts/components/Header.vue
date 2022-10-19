@@ -1,9 +1,6 @@
 <template>
-  <div class="row">
+  <div class="row fixed w-full z-20">
     <header class="lg:bg-gradient-to-b lg:from-indigo-dark lg:to-transparent">
-      <div
-        class="hidden lg:flex justify-center bg-transparent bg-gradient-t from-arkan-600 to-wh-100"
-      ></div>
       <div
         class="flex flex-col justify-center space-y-2 mx-auto w-11/12 lg:max-w-7xl"
       >

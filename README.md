@@ -19,7 +19,7 @@ $ npm run start
 
 ```
 
-# voici les liens des pages demandé
+# Routes
 
 - home : http://localhost:3000/
 - mobile-min-screen-width : 401px

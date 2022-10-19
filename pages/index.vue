@@ -1,8 +1,8 @@
 <template>
   <div
-    class="flex flex-col items-center bg-[url('/images/bg.svg')] bg-indigo-bg bg-no-repeat"
+    class="flex flex-col items-center bg-[url('/images/bg.svg')] bg-intro lg:bg-inh xl:ina 2xl:inb bg-indigo-bg bg-no-repeat"
   >
-    <main class="py-6 lg:py-12 w-11/12 lg:max-w-7xl">
+    <main class="w-full">
       <Testimonials />
       <projects />
 

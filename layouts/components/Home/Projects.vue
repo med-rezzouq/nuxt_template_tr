@@ -24,13 +24,14 @@
     </div>
 
     <div
-      class="max-w-4xl lg:max-w-4xl grid lg:grid-cols-3 justify-center items-center mx-auto lg:gap-x-1 gap-y-1 lg:gap-y-1 py-6"
+      class="max-w-4xl lg:max-w-4xl grid lg:grid-cols-3 justify-center items-center text-white mx-auto lg:gap-x-1 gap-y-1 lg:gap-y-1 py-6"
     >
       <div class="lg:col-span-2 relative">
         <div
           class="absolute bottom-0 left-0 w-full z-10 p-4 bg-gradient-to-t from-indigo-gcards to-transparent"
         >
-          hello
+          <h3 class="font-semibold text-2xl">Proje videosu</h3>
+          <p class="font-light">Proje 41 bin 168 m2 alana kuruludur</p>
         </div>
         <img src="images/image1.png" alt="Projet videosu" class="" />
       </div>
@@ -38,28 +39,40 @@
       <div class="relative">
         <div
           class="absolute bottom-0 left-0 w-full z-10 p-4 bg-gradient-to-t from-indigo-gcards to-transparent"
-        ></div>
+        >
+          <h3 class="font-semibold text-2xl">İç Görünüm</h3>
+          <p class="font-light">Proje Resimleri</p>
+        </div>
         <img src="images/image2.png" alt="İç Görünüm" />
       </div>
 
       <div class="relative">
         <div
           class="absolute bottom-0 left-0 w-full z-10 p-4 bg-gradient-to-t from-indigo-gcards to-transparent"
-        ></div>
+        >
+          <h3 class="font-semibold text-2xl">Proje Resimleri</h3>
+          <p class="font-light">Proje Resimleri</p>
+        </div>
         <img src="images/image3.png" alt="İç Görünüm" />
       </div>
 
       <div class="relative">
         <div
           class="absolute bottom-0 left-0 w-full z-10 p-4 bg-gradient-to-t from-indigo-gcards to-transparent"
-        ></div>
+        >
+          <h3 class="font-semibold text-2xl">Dış Görünüm</h3>
+          <p class="font-light">Proje Resimleri</p>
+        </div>
         <img src="images/image4.png" alt="Dış Görünüm" />
       </div>
 
       <div class="relative">
         <div
           class="absolute bottom-0 left-0 w-full z-10 p-4 bg-gradient-to-t from-indigo-gcards to-transparent"
-        ></div>
+        >
+          <h3 class="font-semibold text-2xl">Daireler</h3>
+          <p class="font-light">Kat Planı Resimleri</p>
+        </div>
         <img src="images/image5.png" alt="Daireler" />
       </div>
     </div>
